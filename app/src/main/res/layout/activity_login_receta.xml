@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#14E4FF"
+    tools:context=".ActivityLoginReceta">
+
+
+    <ImageView
+        android:id="@+id/imgreceta"
+        android:layout_width="160dp"
+        android:layout_height="173dp"
+        android:layout_marginTop="80dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/_094675" />
+
+    <TextView
+        android:id="@+id/txtrefa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif-black"
+        android:text="RECETA FACIL"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#031D7A"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgreceta"
+        app:layout_constraintStart_toStartOf="@+id/imgreceta"
+        app:layout_constraintTop_toBottomOf="@+id/imgreceta" />
+
+    <EditText
+        android:id="@+id/comtxtname"
+        android:layout_width="330dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="40dp"
+        android:autoText="false"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FAFFFFFF"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/imgreceta"
+        app:layout_constraintStart_toStartOf="@+id/imgreceta"
+        app:layout_constraintTop_toBottomOf="@+id/txtrefa" />
+
+    <EditText
+        android:id="@+id/txtrec2"
+        android:layout_width="328dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="20dp"
+        android:background="#FFFFFF"
+        android:ems="10"
+        android:hint="Contraseña"
+        android:inputType="text"
+        android:textColor="#000000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/comtxtname"
+        app:layout_constraintStart_toStartOf="@+id/comtxtname"
+        app:layout_constraintTop_toBottomOf="@+id/comtxtname" />
+
+    <Button
+        android:id="@+id/btnIS2"
+        android:layout_width="248dp"
+        android:layout_height="61dp"
+        android:layout_marginTop="56dp"
+        android:backgroundTint="#031F7C"
+        android:text="Iniciar Sesion "
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/txtrec2"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="@+id/txtrec2"
+        app:layout_constraintTop_toBottomOf="@+id/txtrec2" />
+
+    <Button
+        android:id="@+id/btnIS"
+        android:layout_width="248dp"
+        android:layout_height="61dp"
+        android:backgroundTint="#031F7C"
+        android:text="Crear Cuenta"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/btnIS2"
+        app:layout_constraintStart_toStartOf="@+id/btnIS2"
+        app:layout_constraintTop_toBottomOf="@+id/btnIS2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
