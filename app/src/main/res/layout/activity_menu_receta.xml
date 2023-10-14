@@ -8,7 +8,7 @@
     tools:context=".ActivityMenuReceta">
 
     <Button
-        android:id="@+id/button4"
+        android:id="@+id/btnEliminarReceta"
         android:layout_width="296dp"
         android:layout_height="69dp"
         android:layout_marginTop="20dp"
@@ -17,12 +17,12 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button3"
-        app:layout_constraintStart_toStartOf="@+id/button3"
-        app:layout_constraintTop_toBottomOf="@+id/button3" />
+        app:layout_constraintEnd_toEndOf="@+id/btnEditarReceta"
+        app:layout_constraintStart_toStartOf="@+id/btnEditarReceta"
+        app:layout_constraintTop_toBottomOf="@+id/btnEditarReceta" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnEditarReceta"
         android:layout_width="296dp"
         android:layout_height="69dp"
         android:layout_marginTop="16dp"
@@ -31,12 +31,12 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button2"
-        app:layout_constraintStart_toStartOf="@+id/button2"
-        app:layout_constraintTop_toBottomOf="@+id/button2" />
+        app:layout_constraintEnd_toEndOf="@+id/btnCatalogo"
+        app:layout_constraintStart_toStartOf="@+id/btnCatalogo"
+        app:layout_constraintTop_toBottomOf="@+id/btnCatalogo" />
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/btnCatalogo"
         android:layout_width="296dp"
         android:layout_height="69dp"
         android:layout_marginTop="16dp"
@@ -45,10 +45,10 @@
         android:textColor="#FFFFFF"
         android:textSize="24sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/btnCrearReceta"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="@+id/button"
-        app:layout_constraintTop_toBottomOf="@+id/button" />
+        app:layout_constraintStart_toStartOf="@+id/btnCrearReceta"
+        app:layout_constraintTop_toBottomOf="@+id/btnCrearReceta" />
 
     <View
         android:id="@+id/vwRentanguloSuperior"
@@ -99,7 +99,7 @@
         app:layout_constraintTop_toBottomOf="@+id/vwRentanguloSuperior" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnCrearReceta"
         android:layout_width="296dp"
         android:layout_height="69dp"
         android:layout_marginTop="52dp"
@@ -122,10 +122,10 @@
         android:textColor="#03116B"
         android:textSize="20sp"
         android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="@+id/btnEliminarReceta"
         app:layout_constraintHorizontal_bias="0.484"
-        app:layout_constraintStart_toStartOf="@+id/button4"
-        app:layout_constraintTop_toBottomOf="@+id/button4" />
+        app:layout_constraintStart_toStartOf="@+id/btnEliminarReceta"
+        app:layout_constraintTop_toBottomOf="@+id/btnEliminarReceta" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

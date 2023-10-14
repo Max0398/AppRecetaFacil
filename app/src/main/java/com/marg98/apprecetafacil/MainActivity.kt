@@ -17,8 +17,12 @@ class MainActivity : AppCompatActivity() {
             startActivity(mIntent)
         }
 
-        binding.btnEditarReceta.setOnClickListener(){
-            val mIntent= Intent(this,ActivityEditarReceta::class.java)
+        binding.btnMenu.setOnClickListener(){
+            val mIntent= Intent(this,ActivityMenuReceta::class.java)
+            startActivity((mIntent))
+        }
+        binding.btnLogin.setOnClickListener(){
+            val mIntent= Intent(this,ActivityLoginReceta::class.java)
             startActivity((mIntent))
         }
     }
