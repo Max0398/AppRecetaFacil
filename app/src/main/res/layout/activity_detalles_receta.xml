@@ -22,12 +22,11 @@
         android:id="@+id/vwRentanguloSuperior6"
         android:layout_width="413dp"
         android:layout_height="24dp"
-        android:layout_marginTop="176dp"
         android:background="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintTop_toBottomOf="@+id/txtIngredientesDetalles" />
 
     <View
         android:id="@+id/vwRentanguloSuperior2"
@@ -126,21 +125,9 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/vwRentanguloSuperior5"
-        app:layout_constraintHorizontal_bias="0.021"
+        app:layout_constraintHorizontal_bias="0.031"
         app:layout_constraintStart_toStartOf="@+id/vwRentanguloSuperior5"
         app:layout_constraintTop_toTopOf="@+id/vwRentanguloSuperior5" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Pasos"
-        android:textSize="16sp"
-        android:textStyle="bold"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.024"
-        app:layout_constraintStart_toStartOf="@+id/vwRentanguloSuperior6"
-        app:layout_constraintTop_toTopOf="@+id/vwRentanguloSuperior6" />
 
     <EditText
         android:id="@+id/txtIngredientesDetalles"
@@ -161,21 +148,21 @@
         android:id="@+id/txtIngredientesDetalles2"
         android:layout_width="388dp"
         android:layout_height="136dp"
-        android:layout_marginTop="4dp"
+        android:layout_marginTop="8dp"
         android:ems="10"
         android:gravity="start|top"
         android:hint="Texto "
         android:inputType="textMultiLine"
         android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintHorizontal_bias="0.434"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/vwRentanguloSuperior6" />
 
     <Button
-        android:id="@+id/btnVolverDetalle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:id="@+id/btnVolverMain"
+        android:layout_width="122dp"
+        android:layout_height="51dp"
         android:layout_marginTop="24dp"
         android:backgroundTint="@color/white"
         android:text="Volver"
@@ -183,8 +170,21 @@
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.473"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txtIngredientesDetalles2" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:text="Pasos:"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.028"
+        app:layout_constraintStart_toStartOf="@+id/vwRentanguloSuperior6"
+        app:layout_constraintTop_toBottomOf="@+id/txtIngredientesDetalles" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
